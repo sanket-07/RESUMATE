@@ -64,7 +64,7 @@ Welcome to **AI Recruiter** – an end-to-end intelligent recruitment platform t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vaibhavnarute/final_ai_rectruter.git
+git clone https://github.com/vaibhavnarute/Resumate.git
 cd final_ai_rectruter
 ```
 
@@ -105,11 +105,11 @@ python -m pip install numpy==1.26.1 pandas==2.1.3 --force-reinstall --no-cache-d
 python backend/app.py
 
 python backend/main.py
-#run both commands app and main both for python backend
+#run both commands app and main both for python backend in different terminals or command prompts or powershell
 
 ```
 ```bash
-cd final_ai_rectruter
+cd Resumate
 
 rmdir /s /q node_modules 
 
