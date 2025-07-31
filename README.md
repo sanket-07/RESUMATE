@@ -65,7 +65,7 @@ Welcome to **AI Recruiter** – an end-to-end intelligent recruitment platform t
 
 ```bash
 git clone https://github.com/vaibhavnarute/Resumate.git
-cd final_ai_rectruter
+cd Resumate
 ```
 
 ### 2. Create a virtual environment & activate
