@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { signInWithPopup } from "firebase/auth";
+import { googleProvider } from "../../lib/firebase";
 import { auth } from '../../lib/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { Button } from "@/components/ui/button";
@@ -51,6 +53,18 @@ const Login = () => {
       }
     }
   };
+
+  const handleGoogleLogin = async () => {
+  try {
+    const result = await signInWithPopup(auth, googleProvider);
+    setSuccess("Successfully signed in with Google!");
+    setShowWelcome(true);
+  } catch (error) {
+    if (error instanceof Error) {
+      setError(error.message);
+    }
+  }
+};
 
   const handleLogout = async () => {
     try {
@@ -205,6 +219,14 @@ const Login = () => {
                   <Button type="submit" className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600 text-slate-950 font-semibold">
                     Sign In
                   </Button>
+                  <Button
+                  type="button"
+                  onClick={handleGoogleLogin}
+                  variant="outline"
+                  className="w-full mt-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-950"
+              >
+              Continue with Google
+                </Button>
                 </form>
               </TabsContent>
               <TabsContent value="signup" className="space-y-4">
