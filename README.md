@@ -65,7 +65,7 @@ Welcome to **AI Recruiter** – an end-to-end intelligent recruitment platform t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vaibhavnarute/Resumate.git
+git clone https://github.com/sanket-07/RESUMATE.git
 cd Resumate
 ```
 
