@@ -209,7 +209,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## 👨‍💻 Team
 
 Built with ❤️ by **Team Buri-Buri Jaimons**
-Final year  EXTC Engineering project – COHERENCE '25
+Final year  EXTC Engineering project 
 
 ---
 
