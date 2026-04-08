@@ -1,6 +1,7 @@
 
 
-# 🤖 AI Recruiter – Smart Hiring Assistant with ML-Powered Insights
+# 🤖 Design and Implementation of an AI-Powered Resume Parsing and Screening System
+
 
 Welcome to **AI Recruiter** – an end-to-end intelligent recruitment platform that automates resume analysis, predicts candidate salary, visualizes model performance, and offers an interactive frontend for HR professionals and job applicants alike.
 
@@ -208,7 +209,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## 👨‍💻 Team
 
 Built with ❤️ by **Team Buri-Buri Jaimons**
-Final year AIML Engineering project – COHERENCE '25
+Final year  EXTC Engineering project – COHERENCE '25
 
 ---
 
